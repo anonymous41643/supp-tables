@@ -11,7 +11,7 @@
 | HypoGeniC | GPT-5.4 | 69.7 / 69.8 | 80.7 / 80.7 | 60.2 / 60.3 | 51.2 / 50.6 | 85.5 / 85.4 | 62.1 / 62.0 |
 | **RLIE (Ours)** | **GPT-5.4** | **75.2 / 75.2** | **83.5 / 83.5** | **67.2 / 67.2** | **64.9 / 63.4** | **91.8 / 91.8** | **66.4 / 66.4** |
 
-## Table 2. Rule-bank-size ablation on headline_binary
+## Table 2. Rule-bank-size ablation on Headlines
 
 | # Rules | 2 | 3 | 5 | 10 | 20 | 30 |
 |---|---:|---:|---:|---:|---:|---:|
@@ -41,12 +41,12 @@
 | llm_detect | 0.8211 | 0.9167 | 5/1/12 |
 | citations | 0.5556 | 0.6000 | 1/3/3 |
 
-## Table 5. Finetuned Qwen3-8B classifier vs. RLIE
+## Table 5. Finetuned Qwen3-8B classifier vs. RLIE (ACC/F1)
 
 | Task | Finetuned Qwen3-8B | RLIE (ours) |
 |---|---:|---:|
-| headline | 0.6586 / 0.6571 | 0.6703 / 0.6702 |
-| retweet | 0.6160 / 0.6152 | 0.6868 / 0.6861 |
+| headline | 0.5147 / 0.5148 | 0.6703 / 0.6702 |
+| retweet | 0.5140 / 0.5139 | 0.6868 / 0.6861 |
 | reviews | 0.9413 / 0.9412 | 0.7087 / 0.7074 |
 | dreaddit | 0.5440 / 0.5435 | 0.8233 / 0.8232 |
 | llm_detect | 0.9967 / 0.9983 | 0.9066 / 0.9065 |
